@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper namespace="org.siwoo.mapper.TimeMapper">
+
+  <select id="getTime2" resultType="string">
+  SELECT sysdate FROM dual 
+  </select>
+
+</mapper>
